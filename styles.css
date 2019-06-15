@@ -1,0 +1,118 @@
+body {
+    background-image: url("papyrus.png");
+    height: 100%;
+   }
+
+.navbar-brand {
+    margin-left: 310px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+   
+    
+}
+
+.navbar-nav {
+    margin-left: 455px;
+}
+
+.navbar-custom {
+    background-color:grey;
+    border-bottom: solid lightgrey;
+    padding:0px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+    font-size: 170%;
+}
+
+.nav-item {
+    padding: 6px;
+}
+
+.card {
+    width: 960px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 65px; /* Added */
+    height: 550px;
+    border: solid lightgrey;
+}
+.card-body {
+    padding: 40px 60px 50px 60px;
+    font-size: 110%;
+}
+.card-header {
+    padding-left: 60px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: solid lightgrey;
+    background-color: white;
+    color: #4aaaa5;
+    font-size: 180%;
+}
+
+p {
+    line-height: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.picture {
+    height: 230px;
+    width: 230px;
+    float: left;
+    padding-right: 27px;
+    padding-bottom: 27px;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color:white;
+    text-align: center;
+    border-top: solid #4aaaa5 3px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .text-white {
+
+  }
+
+  .flexthing {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.directory {
+    position: relative;
+    margin: 5px 10px 15px 10px;
+}
+
+.directoryText {
+    position: absolute;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    padding: 15px;
+    margin: 5px 0px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+
+.portpics {
+    object-fit: cover;
+    width: 230px;
+    height: 170px;
+    background: #666666;
+}
+
