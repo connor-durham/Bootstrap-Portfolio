@@ -4,7 +4,7 @@ body {
    }
 
 .navbar-brand {
-    margin-left: 310px;
+    margin-left: 20vw;
     background-color: #4aaaa5;
     color: white;
     padding: 30px;
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 455px;
+    margin-left: 27vw;
 }
 
 .navbar-custom {
@@ -33,11 +33,11 @@ body {
 }
 
 .card {
-    width: 960px;
+    width: 60vw;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-top: 65px; /* Added */
-    height: 550px;
+    height: auto;
     border: solid lightgrey;
 }
 .card-body {
